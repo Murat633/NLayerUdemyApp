@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ASUS\\source\\repos\\NLayerUdemyApp\\NLayer.API\\wwwroot\\img\\Pugsley.webp",
+      "PackagePath": "staticwebassets\\img\\Pugsley.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NLayer.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NLayer.API.props",
+      "PackagePath": "build\\NLayer.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NLayer.API.props",
+      "PackagePath": "buildMultiTargeting\\NLayer.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NLayer.API.props",
+      "PackagePath": "buildTransitive\\NLayer.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "DryyQJ8WqnOHrUJzWSse+V9xfX2SmPBsKgvfqpIbUTY=",
+  "Source": "NLayer.API",
+  "BasePath": "_content/NLayer.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NLayer.API\\wwwroot",
+      "Source": "NLayer.API",
+      "ContentRoot": "C:\\Users\\ASUS\\source\\repos\\NLayerUdemyApp\\NLayer.API\\wwwroot\\",
+      "BasePath": "_content/NLayer.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
