@@ -7,7 +7,7 @@ namespace NLayer.API.Middlewares
 {
     public static class UseCustomExceptionHandler
     {
-        public static void UserCustomException(this IApplicationBuilder app)
+        public static void UseCustomException(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(config =>
             {
@@ -17,6 +17,7 @@ namespace NLayer.API.Middlewares
                     var exceptionFeature = context.Features.Get<IExceptionHandlerFeature>();
                     var statusCode = exceptionFeature.Error switch{ 
                         ClientSideException=>400,
+                        NotfoundException=>404,
                         _ => 500
                     };
                     context.Response.StatusCode = statusCode;
